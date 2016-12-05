@@ -1,0 +1,11 @@
+{
+    "id": "3",
+    "name": "wind element",
+    "volume": "40",
+    "volumeLeft": "38",
+    "battery": {
+        "isConnected": "false",
+        "chargeLevel": "5"
+    },
+    "images": "img/wind.png"     
+}

@@ -1,0 +1,11 @@
+{
+    "id": "4",
+    "name": "earth element",
+    "volume": "100",
+    "volumeLeft": "65",
+    "battery": {
+        "isConnected": "true",
+        "chargeLevel": "64"
+    },
+    "images": "img/earth.png" 
+}

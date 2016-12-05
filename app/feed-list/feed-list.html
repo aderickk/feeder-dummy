@@ -1,0 +1,15 @@
+<div class="container-fluid">
+	<h1> Feeding System </h1>
+	<table border="1">
+	<tr>
+		<td> Id </td>
+		<td> Name </td>
+	</tr>
+	<tr ng-repeat="element in $ctrl.elements">
+		<td> {{element.id}} </td>
+		<td> 
+			<a href="#!/feeds/{{element.id}}"> {{element.name}} </a>
+		</td>
+	</tr>
+	</table>
+</div>

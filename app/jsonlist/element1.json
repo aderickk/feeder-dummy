@@ -1,0 +1,11 @@
+{
+    "id": "1",
+    "name": "fire element",
+    "volume": "15",
+    "volumeLeft": "4",
+    "battery": {
+        "isConnected": "false",
+        "chargeLevel": "50"
+    },
+    "images": "img/fire.png"   
+}

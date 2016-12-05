@@ -1,0 +1,22 @@
+<h1> {{$ctrl.element.name}} </h1>
+<img src={{$ctrl.element.images}}/>
+<ul>
+	<li>
+		ID: {{$ctrl.element.id}}
+	</li>
+	<li>
+		Volume: {{$ctrl.element.volume}}
+	</li>
+	<li>
+		Volume Left: {{$ctrl.element.volumeLeft}}
+	</li>
+	<li>
+		Battery Status
+		<dt>
+			Connected: {{$ctrl.element.battery.isConnected}}
+		</dt>
+		<dt>
+			Charge Level: {{$ctrl.element.battery.chargeLevel}}
+		</dt>
+	</li>
+</ul>

@@ -1,0 +1,11 @@
+{
+    "id": "2",
+    "name": "water element",
+    "volume": "90",
+    "volumeLeft": "60",
+    "battery": {
+        "isConnected": "true",
+        "chargeLevel": "100"
+    },
+    "images": "img/water.png" 
+}
