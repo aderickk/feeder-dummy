@@ -13,6 +13,8 @@ angular
 				$http.get(reqLink).then(
 					function (response){
 						self.element = response.data;
+					}, function (error) {
+						console.error('Oh OH: ', error);
 					}
 				);
 			}
