@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.version'
   ,'feedList'
   ,'feedDetail'
+  ,'fancyFeed'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
@@ -18,6 +19,9 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   	}).
     when('/feeds/:feedId', {
       template: '<feed-detail></feed-detail>'
+    }).
+    when('/fancyFeeds', {
+      template: '<fancy-feed></fancy-feed>'
     }).
   	//otherwise({redirectTo: '/view1'});
     otherwise({redirectTo: '/feeds'});

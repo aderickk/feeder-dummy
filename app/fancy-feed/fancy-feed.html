@@ -1,0 +1,19 @@
+<div class="container theme-showcase page-margin">
+		<div class="page-header">
+			<h1>Fancy Feeders</h1>
+		</div>
+		<form class="form-horizontal">
+			<div class="form-group">
+				<label class="col-sm-2 control-label">Elements</label>
+				<div class="col-sm-4">
+					<select class="form-control" ng-model="elemid" ng-options="element.id as (element.name) for element in $ctrl.elements"
+					ng-change="$ctrl.do_change()">
+					</select>
+				</div>
+		</form>
+		<div class="container theme-showcase page-margin">
+			<div class="page-header">
+				<fancy-feed-detail ng-show="elemid" feedId ="$ctrl.elemid"> </fancy-feed-detail>
+			</div>
+		</div>	
+</div>
